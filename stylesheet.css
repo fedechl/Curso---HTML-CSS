@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: hind;
+    src: url(fonts/Hind/Hind-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+html {
+    font-size: 62.5%;;
+}
+
+body {
+    font-family: hind;
+}
+
+/*HEADER*/
+
+nav {
+    background-color:#35353D;
+}
+
+.logo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: oswald;
+    font-size: 90px;
+    font-weight: bold;
+    color: sandybrown;
+    text-shadow: 2px 2px #35353D;        
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.coverImg {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/portada2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+header nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav ul li {
+    display:inline-block;
+    position: relative;
+    padding: 10px 20px;
+}
+
+header nav ul ul {
+    position: absolute;
+    display: none;
+}
+
+header nav ul ul li {
+    display: block;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: #35353D;
+}
+
+header nav ul li a {
+    font-family: oswald;
+    font-size: 20px;
+    color: sandybrown;
+}
+
+/*INDEX*/
+
+.background {
+    background-color: #A2A3BD;
+}
+
+h1 {
+    padding: 20px 0 20px 20px;
+    color: #3F4070;
+    background-color: #A2A3BD;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: oswald;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #3F4070;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: oswald;
+    text-transform: uppercase;
+    padding: 20px 0 0 20px;
+}
+
+.divInicio {
+    background-color: #35353D;        
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.inicioVolver {
+    font-family: oswald;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: sandybrown;
+}
+
+.regularText {
+    font-size: 1.7rem;
+    line-height: 25px;
+    word-spacing: 2px;
+    padding: 0px 10px 20px 10px;
+}
+
+.container {
+    height: 480px;
+}
+
+.containerAbout {
+    padding: 30px;
+}
+
+.textFloatRight {
+    font-size: 1.7rem;
+    line-height: 25px;
+    word-spacing: 2px;
+    text-align: left;
+    padding: 20px;
+    text-align: justify;
+}
+
+.instrumentImg {
+    width: 100px;
+}
+
+.image {
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+
+
+.divImageMultimedia {
+    display: inline-block;
+    padding: 10px;
+}
+
+.imageMultimedia {
+    display: inline-block;
+    width: 500px;
+}
+
+.video {
+    display: inline-block;
+    padding: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table tbody tr td{
+    padding: 10px 30px;
+}
+
+.contact {
+    display: block;
+    margin: 10px 10px 0 20px;
+}
+
+/*FLEX*/
+
+.flex-divPadre {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-aboutUs {
+    
+}
+
+.flex-multimediaImg {
+
+}
+
+/*FOOTER*/
