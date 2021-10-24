@@ -86,7 +86,7 @@ header nav ul li a {
     color: sandybrown;
 }
 
-/*INDEX*/
+/*BODY*/
 
 .background {
     background-color: #A2A3BD;
@@ -108,7 +108,7 @@ h2 {
     font-weight: bold;
     font-family: oswald;
     text-transform: uppercase;
-    padding: 20px 0 0 20px;
+    padding: 20px;
 }
 
 .divInicio {
@@ -127,6 +127,17 @@ h2 {
     color: sandybrown;
 }
 
+.linkClases {
+    font-family: oswald;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: sandybrown;
+    text-shadow: 1px 1px #35353D;
+    padding-right: 20px;
+}
+
 .regularText {
     font-size: 1.7rem;
     line-height: 25px;
@@ -142,7 +153,7 @@ h2 {
     padding: 30px;
 }
 
-.textFloatRight {
+.textRight {
     font-size: 1.7rem;
     line-height: 25px;
     word-spacing: 2px;
@@ -156,33 +167,17 @@ h2 {
 }
 
 .image {
-    float: left;
     width: 500px;
     padding: 20px;
 }
 
-
-.divImageMultimedia {
-    display: inline-block;
-    padding: 10px;
-}
-
 .imageMultimedia {
-    display: inline-block;
     width: 500px;
-}
-
-.video {
-    display: inline-block;
     padding: 10px;
 }
 
-table {
-    margin: 0 auto;
-}
-
-table tbody tr td{
-    padding: 10px 30px;
+iframe {
+    padding: 10px 0 10px 20px;
 }
 
 .contact {
@@ -190,19 +185,42 @@ table tbody tr td{
     margin: 10px 10px 0 20px;
 }
 
+/* TABLE */
+
+table {
+    margin: 0 auto;
+}
+
+table tbody tr td{
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
 /*FLEX*/
 
-.flex-divPadre {
+.flexPadre {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    align-content: space-around;
 }
 
-.flex-aboutUs {
-    
+.flexClases {
+    display: flex;
+    flex-direction: column;
 }
 
-.flex-multimediaImg {
-
+.flexPadreMultimedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;  
 }
 
 /*FOOTER*/
+
+/* HIDE CODE */
+
+.hide {
+    display: none;
+}
